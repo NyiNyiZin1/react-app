@@ -1,7 +1,7 @@
 import react from "react";
 import reactDom from "react-dom";
 
-//function component
+//function component in class
 function Hello2(){
     const component = "function component in class"
     return <h1>Hello {component}</h1>;
