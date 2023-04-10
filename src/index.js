@@ -7,6 +7,7 @@ import State from "./Components/state/State"
 import Props from "./Components/props/Props"
 import Rest from "./Components/apicall/Rest"
 import Memeapp from "./Components/meme/Memeapp"
+import Diceapp from "./Components/dice/Diceapp";
 
 // function component
 function Hello1(){
@@ -43,4 +44,7 @@ function Link1(){
 //reactDom.render(<Rest />, document.getElementById("root"))
 
 //Meme
-reactDom.render(<Memeapp />, document.getElementById("root"))
+//reactDom.render(<Memeapp />, document.getElementById("root"))
+
+//Diec game
+reactDom.render(<Diceapp />, document.getElementById("root"))
