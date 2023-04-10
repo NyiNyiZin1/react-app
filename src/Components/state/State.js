@@ -9,7 +9,7 @@ export default function State() {
         isFavorite: true,
         address: "Hino"
     })
-    /**
+    /**49
      * Challenge: Use a ternary to determine which star image filename
      * should be used based on the `contact.isFavorite` property
      * 
@@ -34,7 +34,7 @@ export default function State() {
         })
         console.log(contact)
     }
-    
+    //{isShown && <p>{props.punchline}</p>}
     return (
         <main>
             <article className="card">

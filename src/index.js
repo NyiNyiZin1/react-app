@@ -5,6 +5,8 @@ import Link from "./Components/Link";
 import App from "./Components/App"
 import State from "./Components/state/State"
 import Props from "./Components/props/Props"
+import Rest from "./Components/apicall/Rest"
+import Memeapp from "./Components/meme/Memeapp"
 
 // function component
 function Hello1(){
@@ -32,7 +34,13 @@ function Link1(){
 //reactDom.render(<App />, document.getElementById("root"))
 
 //state as props
-reactDom.render(<State />, document.getElementById("root"))
+//reactDom.render(<State />, document.getElementById("root"))
 
 //props
 //reactDom.render(<Props />, document.getElementById("root"))
+
+//rest api call
+//reactDom.render(<Rest />, document.getElementById("root"))
+
+//Meme
+reactDom.render(<Memeapp />, document.getElementById("root"))
